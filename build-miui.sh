@@ -212,7 +212,7 @@ if [ $KSU_ENABLE -eq 1 ]; then
     -e KSU_MULTI_MANAGER_SUPPORT \
     -e KPROBES \
     -e EXT4_FS \
-    -e KPM
+    -d KPM
 else
     scripts/config --file out/.config -d KSU
 fi
